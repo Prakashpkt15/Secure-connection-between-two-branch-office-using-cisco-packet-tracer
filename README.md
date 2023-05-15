@@ -10,7 +10,9 @@ The VPN tunnel is created using the IPsec protocol, which provides a secure and 
  3 Test the VPN connection by pinging the computers from each other.
  In addition to the VPN tunnel, the network also includes access control lists (ACLs) on the routers to control access to the network resources. The ACLs are configured to allow only authorized traffic and block all other traffic.
  # To configure inter-VLAN routing, the following steps were taken:
+ 
  1 Configure the IP addresses of the switches and the router.
+ 
  2 Create differnt  VLANs on each switch and assign ports to each VLAN.
  3 Configure trunk and access ports on the switches to allow traffic from all VLANs to pass through.
  4 Configure subinterfaces on the router for each VLAN and assign IP addresses to the subinterfaces.
