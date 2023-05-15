@@ -1,5 +1,4 @@
 # Secure-connection-between-two-branch-office-using-cisco-packet-tracer
-![alt text](https://github.com/Prakashpkt15/Secure-connection-between-two-branch-office-using-cisco-packet-tracer/blob/main/Screenshot%20(17).pngraw=true)
 # Introduction:
 The purpose of this project is to design a secure network connection between two branch offices using Cisco Packet Tracer. The two branch offices are located in different cities and need to communicate securely to ensure the confidentiality, integrity, and availability of data transferred between them. And to design and implement a network with inter-VLAN routing and DHCP configuration using Cisco packet tracer. The network consists of differnt  VLANs and a DHCP server to assign IP addresses to devices on the network.The network will allow devices on different VLANs to communicate with each other .
  # Design:
