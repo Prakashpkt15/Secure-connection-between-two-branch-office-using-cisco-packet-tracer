@@ -5,16 +5,17 @@ The purpose of this project is to design a secure network connection between two
 The network design consists of two branch offices, each with a Cisco router, a Cisco switch, and  computers. The routers are connected to each other via a VPN tunnel and static and default routing protocols, which provides a secure and encrypted communication channel between the two branch offices. Each computer is connected to the switch, and the switch is connected to the router.And to network design consists of different VLANs ,each with cisco switchs. The switches are connected to a router that provides inter-VLAN routing .The DHCP servers are configured in routers to provide IP addresses to devices on each VLAN
 The VPN tunnel is created using the IPsec protocol, which provides a secure and encrypted connection between the two routers. The IPsec protocol uses two main components: the Authentication Header (AH) and the Encapsulating Security Payload (ESP). The AH provides authentication and integrity protection for the IP packet, while the ESP provides confidentiality and integrity protection.
 # Layer 2 security design and configuration
-1.BPDU Guard:
+# 1.BPDU Guard:
  * Implement STP security measures, such as BPDU Guard and root Guard , on Cisco Packet Tracer switches.
  * Configure BPDU Guard and Root Guard settings to protect against rogue switches and unauthorized changes.
-2.DHCP snooping:
+
+# 2.DHCP snooping:
  * Enable DHCP snooping on cisco packet tracer switches.
  * Configure trusted and untrusted ports and verify the correct operation of DHCP snooping.
-3.Port security:
+# 3.Port security:
  * Implement port security measures, such as MAC address filtering and sticky MAC addresses ,on Cisco Packet Tracer switches.
  * configure port security setting , including maximum allowed MAC addresses and violation actions.
- *  
+ 
 # To configure the VPN tunnel, the following steps were taken:
  1 Configure the IP addresses of the routers and computers.
  
